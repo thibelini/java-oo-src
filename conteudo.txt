@@ -1,0 +1,104 @@
+Curso Java
+
+=============================================================================================================
+16/07/2018
+
+Aula 1
+desenvolvimento JDK
+produçao JRE
+
+pontualizar os o ques?
+
+O que das coisas?
+
+O que precisa para desenvolver uma aplicacao web?
+JavaSE, Hibernate(Framework de Persistencia de Dados), TomCat(Container Web), Struts(Framewrok Web), 
+Eclipse(IDE), MySql(Banco de Dados), jQuery, Html5, Javascript, CSS, Bootstrap
+
+O que preciso para criar meu ambiente Java?
+Baixar a JDK no site da Oracle e descompactar, criar a variavel de ambiente JAVA_HOME no Windows.
+
+=============================================================================================================
+17/07/2018
+
+Configuracao projeto
+mouse direito >> Build Path >> Configure Buid Path >> Java Build Path e Compiler
+
+Pacotes
+- letras em minusculo
+
+Classe
+- dentro da classe so pode haver declaracoes
+- nao no escoopo - diferente de somente criar e declarar
+- atribuir valores somente em metodos
+- dentro de um escopo da classe posso declarar outra classe
+- primeiro os atribtuos e variaveis globais e por ultimo depois metodos
+
+Metodo Main
+- Usado para iniciar o sistema e para testar classes.
+
+Identificadores
+- Nome dado a tudo no Java
+
+Convenção
+- Pacotes em minusculo
+- Classes e interfaces primeira letra sempre em maiuscula
+- Métodos nome devem ser verbo combinado de maiscula e minuscula, primeira letra em minusculo
+
+Variaveis e Atributos
+- combinacao de minuscula com maiuscula
+
+Constantes
+- variaveis fixas - usar a palavra final - escritas sempre em letras maiusculas
+
+Escopo
+- tudo que fica dentro da chave
+
+Tipo primitivos
+- Começam em maiusculo
+
+byte			     	1			-128 a 127
+short			     	2			-32.768 a 32.767
+int				    	4			-2.147.483.648 a 2.147.483.647
+long			    	8			-9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
+
+Declaracao dentro de uma variavel dentro de um metodo de uma clasee precisam sempre ser inicializada com valor padroes
+
+Valore Padroes dos Tipos
+inteiro é 0
+decimal é 0.0
+boolean é false
+Objeto é null
+
+
+Stack onde ficam os primitivos
+Heap onde ficam os objetos
+
+Diferencas Atributos e Variaveis
+- Atributo sempre persiste no banco de dados e variavel para calculos locais
+
+=============================================================================================================
+18/07/2018
+
+Operadores
+
+igual ==
+diferente !=
+maior >
+maior igual >=
+menor <
+menor igual <=
+ou ||
+and && 
+
+=============================================================================================================
+19/07/2018
+
+
+
+
+
+
+
+
+
