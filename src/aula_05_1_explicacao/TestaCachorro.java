@@ -36,13 +36,6 @@ public class TestaCachorro{
 		System.out.println( "Peso: " + dog.peso );
 		System.out.println( "Raça: " + dog.raca );
 
-		Cachorro dog2 = new Cachorro();
-		dog2 = dog;
-
-		System.out.println( dog2.nome );
-		dog.nome = "Pirulito";
-
-		System.out.println( dog.nome );
 	}
 
 }
