@@ -95,6 +95,55 @@ and &&
 19/07/2018
 
 
+=============================================================================================================
+23/07/2017
+
+Modificadores
+
+private
+- funciona so no mesmo escopo da classe
+- so faz sentido dentro da classe
+
+sem nada
+- classe, classe interna, atributos e metodos
+- apenas a propria classe e classe no mesmo pacote
+
+protected
+- apenas a propria classe, mesmo pacote e heranca
+
+public
+- todas as classes de todos os pacotes
+
+
+Encapsulamento
+- É restringer e liberar ao mesmo tempo
+1 - limita acesso ao atributos, permitindo acesso apenas por metodos auxiliares
+
+Sombreamento
+this - representa a classe na qual foi usada.
+usado em metodos
+utilizamos o this no mesmo escopo 2 identificadores com o mesmo nome
+
+
+Associação
+- Simples - 1 na ponta da fecha toOne
+
+Agregação
+- Todo composto por varias partes - na ponta da fecha sempre terá o valor * ( > 1)
+
+losangulo preto - relacionamento forte - nao existe o item sem  existir a venda
+losangulo branco - relacionamento fraco - existe a categoria antes de cadastrar o produto.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
