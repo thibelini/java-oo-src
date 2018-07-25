@@ -134,6 +134,83 @@ Agregação
 losangulo preto - relacionamento forte - nao existe o item sem  existir a venda
 losangulo branco - relacionamento fraco - existe a categoria antes de cadastrar o produto.
 
+=============================================================================================================
+24/07/2018
+
+MVC
+
+View - camada onde ficam as classes front-end (Tela)
+Model - camada de persistencia e negocios
+Controller - camada onde fica as classes de ligacao do MODEL e VIEW
+
+Sequencia >> po >> dao >>  service >> facade
+
+
+Criando projeto novo
+
+1 - Criar um projeto Dynamic Web Project
+2 - Criar a estrutura de pacotes.
+br.com.nomeEmpresa
+	- manager
+		- abstracts
+		- connection
+		- exceptions
+		- interfaces
+		- utilidades
+	- nomeSistema
+		- nomeClasse(minusculo)
+			- controller
+			- dao
+			- model
+			- view
+		(Obs: Para cada classe do diagrama, repetir esta estrutura)	
+3 - Criar a classe Abstrata AbstractPO(Classe mãe de TODOS os POs)
+4 - Criar uma Interface com os métodos de Persistencia e Consulta (CRUD)
+5 - Criar a classe de Conexão com o BD (HibernateConnection)
+6 - (opcional) Criar a Classe Padrão de Excessão (BackendException) e a classe Utilidades.
+7 - Criar as Classes POs em seus respectivos pacotes model.
+	- Criar od métodos gets e sets com final ToString para todos os atributos NÃO STRING
+	- Aplicar o Singleton nos metodos get de atributos de Relacionamento( ou seja Atributos do tipo de Classe PO )
+8 - Criar as Classes DAOs em seus respectivos pacotes dao.
+9 - Criar as Classes SERVICEs em seus respectivos pacotes model.
+10 - Criar as Classes FACADESs em seus respectivos pacotes controller.
+<Em caso de utilizar Struts como framework web>
+11 - Baixar e jogar no projeto as frameworks HTML(Bootstrap) e JavaScript(JQuery)
+12 - Criar as classes Action(filha de DispatchAction) e Form(Filha de ActionForm) em seus respectivos pacotes view.
+13 - Editar o arquivo WebContent/WEB-INF/web.xml mapeando a Servlet do Struts.
+14 - Criar o arquivo struts-config.xml na pasta WebContent/WEB-INF.
+15 - Criar a estrutura de pastas no WebContent, sendo uma por tela.
+WebContent
+	- aluno
+	- ( Obs: uma para cada tela )
+16 - Criar os arquivos de tela(jsp) em suas respectivas pastas.
+17 - Configurar o servidor de aplicação(Tomcat).
+18 - Startar o servidor de aplicação.
+19 - Testar o sistema num Browser digitando a url na barra de endereço.
+
+Resumindo em ordem de criacao das classes.
+	*AbstractPO	
+	*Interface CRUD
+	*HibernateConnection
+	#POs
+	#DAOs
+	#SERVICEs
+	#FACADESs
+	#Action
+	#Form
+	*Bootstrap + JQuery
+	#*struts-config.xml
+	*web.xml
+	#JSP
+* Uma vez por projeto	
+# Para cada tela do sistema
+	
+
+
+
+
+
+
 
 
 
