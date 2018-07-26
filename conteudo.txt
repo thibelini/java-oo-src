@@ -202,8 +202,23 @@ Resumindo em ordem de criacao das classes.
 	#*struts-config.xml
 	*web.xml
 	#JSP
+
+	
 * Uma vez por projeto	
 # Para cada tela do sistema
+
+View >> Controller(FACADE) >> SERVICE e PO >> DAO
+
+=============================================================================================================
+25/07/2018
+
+Construtor
+
+Metodo para criar os objetos - primeiro metodo da classe a ser chamado.
+
+Polimorfismo 1 - sobrecarga de metodo - construtor com parametros diferentes (Tipo, Ordem e Quantidade). O que torna o metodo unico é a assinatura
+
+
 	
 
 
