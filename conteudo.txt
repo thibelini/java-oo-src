@@ -222,11 +222,47 @@ Polimorfismo 1 - sobrecarga de metodo - construtor com parametros diferentes (Ti
 =============================================================================================================
 26/07/2018
 
+=============
 Static 
 
 A classe possue o objeto
 
 atributos de classe é a classe mesmo	
+
+atributo da classe - Carro.cor() = "Preto"
+atributo da instancia - new Carro().marca = = "Preto"
+
+Não é possivel acessar elementos nao Staticos em escopos Staticos
+
+=============
+Herança
+
+Herdar de uma outra classe as caracteristicas e acoes
+
+=============================================================================================================
+27/07/2018
+
+Super
+
+super(?) usado para o construtor pra super classe - obrigatorio na primeira linha do construtor
+
+Reescrita de Metodos com herança
+
+para usar tem que ter a mesma assinatura
+
+o objeto que executa sempre o metodo.
+
+o ambiente onde ele esta com o tipo da variavel
+
+Generalizacao e Especializacao
+
+sempre usar Herança ou Interface
+
+o tipo da variavek limita o aceesso ao objeto
+
+objeto especifico no objeto da mae especidalizacao - cast
+
+objeto converte é uma generalizacao -  
 
 
 
