@@ -12,7 +12,7 @@ package aula_08_2_praticando;
 
 public class Aluno{
 
-	private String nome;
+	public String nome;
 	public double nota;
 	public static double media;
 
@@ -29,7 +29,7 @@ public class Aluno{
 		return texto.toString();
 	}
 
-	public static void setNome( String nome ) {
+	public void setNome( String nome ) {
 		this.nome = nome;
 	}
 

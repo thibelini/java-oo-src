@@ -266,6 +266,18 @@ objeto converte é uma generalizacao -
 
 
 
+=============================================================================================================
+30/07/2018
+
+heranca serve para especializar(evoluir), melhorar e nao mexer na super classe
+
+FINAL
+
+atributos - constante
+Classes - classe é a versao final e nao pode ser filha, mais pode ter pai - nao pode ser extendida
+Métodos - nao pode ser reescrito na super classe
+
+ABSTRACT
 
 
 
