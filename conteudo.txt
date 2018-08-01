@@ -264,8 +264,6 @@ objeto especifico no objeto da mae especidalizacao - cast
 
 objeto converte é uma generalizacao -  
 
-
-
 =============================================================================================================
 30/07/2018
 
@@ -279,7 +277,35 @@ Métodos - nao pode ser reescrito na super classe
 
 ABSTRACT
 
+Usado em
 
+Classes - nao podem ser instanciadas, usadas para heranca que contem metodos abstratos
+
+Metodos - so cria em classes abstratas - nao faz implementacao do metodo na classe apenas declaracao. ë obrigatria a reescrita do metodo
+
+
+=============================================================================================================
+30/07/2018
+
+INTERFACE
+
+Nao herda, implemento - so hajo como
+
+classe 100% abstrata
+
+
+|Veiculo| <---- extends ----- |CarroAnfibio|------ implements ----> |Embarcacao|
+
+Generalizaçao
+CarroAnfiobio ca = new CarroAnfibio()
+ca.navegar();
+Veiculo v = ca;
+v.andar
+
+Especializacao
+CarroAnfibio caN = (CarroAnfibio) v;
+Embarcacao e = caN
+e.navegar;
 
 
 
