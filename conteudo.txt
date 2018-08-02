@@ -293,6 +293,8 @@ Nao herda, implemento - so hajo como
 
 classe 100% abstrata
 
+somente classes concretas sao obrigadas a implementar os metodos
+
 
 |Veiculo| <---- extends ----- |CarroAnfibio|------ implements ----> |Embarcacao|
 
@@ -306,6 +308,17 @@ Especializacao
 CarroAnfibio caN = (CarroAnfibio) v;
 Embarcacao e = caN
 e.navegar;
+
+
+ArrayList<E>
+
+
+=============================================================================================================
+01/08/2018
+
+For Each
+
+
 
 
 
