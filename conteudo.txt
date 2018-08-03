@@ -320,6 +320,34 @@ For Each
 
 
 
+=============================================================================================================
+02/08/2018
+
+
+
+Pessoa <------------ Professor 0..* <--------------<> 0..1 Escola
+
+
+-Estrutura do projeto MVC
+-- Separar em camada
+-- Diagrama de Classe e implementa pro Java
+
+
+Exceptions
+- Erro existe para tirar a JVM da memoria - matar a JVM
+- Nao checadas erro em producao - runtimer
+- Checada erro antes da producao
+Erro sempre na chamada de metodos
+
+
+
+
+
+
+
+
+
+
 
 
 
