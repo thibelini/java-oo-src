@@ -344,8 +344,23 @@ Erro sempre na chamada de metodos
 
 Throws
 
+=============================================================================================================
+06/08/2018
+
+Hibernate
+
+|Produto| 0...* ----------> 1 |Categoria|
+ManyTOOne - One no final -> Vem
+
+|Venda| 1 <>--------------> 1...* |Item|
+OneToMany - Many no final -> Vai - Cascade
 
 
+
+
+mapear os POs
+
+criar uma classe carregar o xml e deixar a sessao aberta
 
 
 
